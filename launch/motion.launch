@@ -1,0 +1,8 @@
+<launch>
+	
+	<include file="$(find motion_from_pixel_distance)/launch/motion.launch"/>
+
+	<!--在rviz显示-->
+  	<arg name="rvizconfig" default="$(find motion_from_pixel_distance)/rviz/motion.rviz" />
+  	<node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true"/>
+</launch>
