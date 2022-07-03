@@ -1,4 +1,4 @@
-# motion_from_pixel_distance
+# Motion-From-Pixel-Distance
 A ROS function package developed at the request of NXROBOT, the function is to let the robot move with the specified pixel point.
 
 ## Get Started
